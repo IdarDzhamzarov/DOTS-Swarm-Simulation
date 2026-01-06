@@ -16,15 +16,8 @@ Key Features:
 ⚙️ Real-time parameter tuning
 
 
-🛠️ Technologies Used
-Unity 2022.3+ - Game engine
+## Demonstration GIF:
+![Демонстрация видео](https://github.com/IdarDzhamzarov/DOTS-Swarm-Simulation/blob/main/DOTSSwarmSimulation-SampleScene-WindowsMacLinux-Unity6.26000.2.10f1_DX11_2026-01-0522-56-38-ezgif.com-optimize.gif)
 
-DOTS/ECS - Data-oriented design
-
-Burst Compiler - High-performance C# subset
-
-Jobs System - Multi-threading
-
-Mathematics - Unity's SIMD math library
-
-Entities Graphics - DOTS rendering pipeline
+## How it works?
+This simulation uses Unity's Entity Component System (ECS) instead of traditional GameObjects. Each agent is a lightweight entity with data components, enabling massive parallelism and optimal memory layout. Systems process thousands of entities simultaneously using Burst-compiled jobs.
